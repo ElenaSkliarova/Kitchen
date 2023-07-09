@@ -1,0 +1,31 @@
+.add_solutions_wrapper{
+    height: 765px;
+    background-image: url(./add_solutions_img/add_solutions_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color7);
+}
+
+.line{
+    margin-top: 20px;
+    width: 70px;
+    height: 6px;
+    background-color: var(--brand-color2);
+}
+
+.add_solutions_content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(349px, 349px));
+    justify-content: space-between;
+}

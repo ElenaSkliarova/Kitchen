@@ -1,0 +1,26 @@
+.reclame{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_reclame{
+    padding: 35px 20px;
+    width: 253px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 23px 0 var(--brand-color6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.reclame_img{
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}

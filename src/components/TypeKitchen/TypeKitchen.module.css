@@ -1,0 +1,39 @@
+.type_kitchen{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color7);
+}
+
+.line{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 70px;
+    height: 6px;
+    background-color: var(--brand-color2);
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.catalog_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(351px, 351px));
+    justify-content: space-between;
+    gap: 20px;
+}

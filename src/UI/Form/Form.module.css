@@ -1,0 +1,174 @@
+/* === form GreetingBlock === */
+.discount_wrapper{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    width: 446px;  
+}
+
+.discount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.input_get_discount{
+    padding: 10px;
+    border: 1px solid var(--brand-color2);
+    border-radius: 5px 0px 0px 5px;
+    width: 245px;
+    height: 55px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--brand-color5);
+}
+
+.warning_phone{
+    border: none;
+    height: auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--brand-color2);    
+}
+
+.warning_discount{
+    padding: 10px 10px 0px 10px;
+    width: 445px;
+}
+
+.warning_consultation{
+    padding-top: 10px;
+    width: 299px;
+}
+
+.warning_ask_question{
+    padding: 10px 10px 0px 10px;
+    width: 512px;
+}
+
+.warning_modal{
+    padding: 10px 10px 0px 10px;
+    width: 358px;
+    font-size: 16px;
+}
+
+.warning_modal_price{
+    padding: 10px 70px 0px 10px;
+    width: 490px;
+    font-size: 14px;
+}
+
+/* === form ChooseBlock === */
+
+.consultation_wrapper{
+    margin-bottom: 12px;
+    width: 299px;
+    height:  auto; 
+    display: flex;  
+    flex-direction: column;    
+}
+
+.consultation{
+    width: 299px;
+    height:  auto; 
+    display: flex;  
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--brand-color1);
+}    
+
+.input_get_consultation{
+    padding: 15px;
+    border: 1px solid var(--brand-color10);
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    text-align: start;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--brand-color7);
+    background-color: var(--brand-color11);
+    opacity: 90%;
+}
+
+/* === form AskQuestion === */
+
+.ask_question_wrapper{
+    display: flex;
+    flex-direction: column;  
+    width: 512px;  
+}
+
+.ask_question{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.input_ask_question{
+    padding: 10px;
+    border: 1px solid var(--brand-color12);
+    border-radius: 5px 0px 0px 5px;
+    width: 290px;
+    height: 55px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--brand-color4);
+}
+
+/* === form modal === */
+
+.modal_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal{
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input_get_catalog{
+    padding: 10px;
+    border: 1px solid var(--brand-color4);
+    border-radius: 5px;
+    width: 358px;
+    height: 55px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--brand-color7);
+}
+
+/* === ModalPrice === */
+
+.modal_price_wrapper{
+    display: flex; 
+    flex-direction: column;   
+}
+
+.modal_price{
+    display: flex;
+    gap: 10px;    
+}
+
+.input_calculate_cost{
+    padding: 10px;
+    border: 1px solid var(--brand-color4);
+    border-radius: 5px;
+    width: 240px;
+    height: 55px;
+    text-align: center;
+    background-color: var(--brand-color1);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--brand-color7);
+}

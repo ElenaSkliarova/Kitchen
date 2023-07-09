@@ -1,0 +1,65 @@
+.catalog_item{
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brand-color1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--brand-color8);
+    box-shadow: 0px 4px 20px 0px rgba(150, 150, 150, 0.25);
+}
+
+.img_kitchen{
+    margin-bottom: 18px;
+    width: 349px;
+    height: auto;   
+}
+
+.kitchen_info{
+    margin-bottom: 23px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.material_info{ 
+    margin-bottom: 15px;   
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.material{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.material_item{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.p_value{
+    font-weight: 600;
+    color: var(--brand-color7);
+}
+
+.price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.p_discount{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--brand-color2);
+}

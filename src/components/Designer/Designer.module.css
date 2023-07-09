@@ -1,0 +1,29 @@
+.designer_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.designer_img{
+    border: none;
+    border-radius: 12px;
+    width: 569px;
+    height: 617px;
+}
+
+.designer_info{
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 566px;
+    height: 85px;
+    align-items: start;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--brand-color7);
+    box-shadow: 2px 4px 20px 0 rgba(150, 150, 150, 0.25);
+}
+
+.designer_main{
+    font-weight: 700;
+    color: var(--brand-color2);
+}

@@ -1,0 +1,147 @@
+.btn{
+    cursor: pointer;
+}
+
+.calculate_cost{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+.input_get_discount{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 200px;
+    height: 55px;
+    background-color: var(--brand-color2);
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--brand-color1);
+    text-align:center;
+}
+
+.get_catalog{
+    padding: 10px;
+    border: 1px solid var(--brand-color2);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-color1);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color3);
+}
+
+.get_catalog_red{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 178px;
+    height: 50px;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+.input_get_consultation{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+.get_consultation{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 253px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+.add_project{
+    padding: 10px;
+    border: 1px solid var(--brand-color2);
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--brand-color1);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color3);
+}
+
+.get_project_design{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 286px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+.input_ask_question{
+    padding: 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 222px;
+    height: 55px;
+    background-color: var(--brand-color2);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--brand-color1);
+    text-align:center;
+}
+
+.input_get_catalog{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 358px;
+    height: 55px;
+    text-align: center;
+    background-color: var(--brand-color2);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--brand-color1);
+}
+
+/*  === ModalPrice === */
+
+.input_calculate_cost{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 240px;
+    height: 55px;
+    background-color: var(--brand-color2);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--brand-color1);
+    text-align:center;  
+}
+
+

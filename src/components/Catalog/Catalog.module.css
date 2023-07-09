@@ -1,0 +1,34 @@
+.catalog_wrapper{
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    width: 100%;    
+    height: auto;
+    background-image: url(./catalog_img/bacrgr_catalog.png);
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color7);
+}
+
+.line{
+    margin-top: 20px;
+    width: 70px;
+    height: 6px;
+    background-color: var(--brand-color2);
+}
+
+.catalog{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(349px, 349px));
+    justify-content: space-between;
+    gap: 20px;
+}

@@ -1,0 +1,39 @@
+.form_item_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle_btn{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand-color1);
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.44);
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--brand-color2);
+    color: var(--brand-color1);
+}
+
+.circle_img{
+    width: 30px;
+    height: 14px;    
+}
+
+.img_white{
+    stroke: var(--brand-color1);
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--brand-color16);
+}

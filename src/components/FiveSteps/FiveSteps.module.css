@@ -1,0 +1,56 @@
+.five_steps_wrapper{
+    padding-bottom: 65px;
+    /* height: 1066px; */
+    background-image: url(./image_5_steps/five_steps_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.five_steps_section{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var(--brand-color7);
+}
+
+.line{
+    margin-top: 20px;
+    width: 70px;
+    height: 6px;
+    background-color: var(--brand-color2);
+}
+
+.first_steps{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(349px, 349px));
+    justify-content: space-between;
+    column-gap: 45px;
+}
+
+.last_steps{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(349px, 349px));
+    justify-content: center;
+    column-gap: 45px;
+}
+
+.btn_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 108px;
+}

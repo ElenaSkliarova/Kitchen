@@ -1,0 +1,127 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 0, 0, 0.78);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9000;
+    transition: 0.5s;    
+}
+
+.modal .active{
+    opacity: 1;   
+}
+
+.modal_content{
+    padding: 40px 45px;
+    border-radius: 10px;    
+    height: auto;
+    max-width: 900px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--brand-color1);
+    transition: 0.4s all;    
+}
+
+.modal_content .active{
+    transform: scale(1);
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.style_wrapper{
+    padding: 25px;
+    width: 810px;
+    height: 223px;
+    border: 1px solid var(--brand-color17);
+    border-radius: 15px;
+    display: flex;   
+    flex-direction: column; 
+    gap: 22px;
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.24);
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--brand-color7);
+}
+
+.type_kitchen_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.form_kitchen_wrapper{
+    padding: 25px;
+    width: 810px;
+    height: 185px;
+    border: 1px solid var(--brand-color17);
+    border-radius: 15px;
+    display: flex;   
+    flex-direction: column; 
+    gap: 22px;
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.24);
+}
+
+.form_kitchen_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.square_wrapper{
+    padding: 25px;
+    width: 810px;
+    height: 135px;
+    border: 1px solid var(--brand-color17);
+    border-radius: 15px;
+    display: flex;   
+    flex-direction: column; 
+    gap: 22px;
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.24);
+}
+
+.square_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.square_btn{
+    padding: 15px 20px;
+    width: 132px;
+    height: 44px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brand-color1);
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.24);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--brand-color2);
+    cursor: pointer;
+}
+
+.active_btn{
+    background-color: var(--brand-color2);
+    color: var(--brand-color1);
+}
+
+.submit_section{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

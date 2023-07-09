@@ -1,0 +1,23 @@
+.ask_question_wrapper{
+    height: 306px;
+    width: auto;
+    background-image: url(./ask_question_img/ask_question_back.jpg);    
+}
+
+.ask_question_content{
+    padding: 79px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.title{
+    text-align: center;
+    width: 768px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    color: var(--brand-color7);
+}

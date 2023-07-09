@@ -1,0 +1,29 @@
+.solution_item_wrapper{ 
+    border-radius: 15px;   
+    width: 349px;
+    display: flex;
+    flex-direction: column;    
+    background-color: var(--brand-color1);
+    box-shadow: 0 4px 20px 0 rgba(150, 150, 150, 0.25);
+}
+
+.solution_img{
+    width:349px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.solution_info{
+    padding: 28px 20px 37px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: var(--brand-color7);
+}

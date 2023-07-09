@@ -1,0 +1,29 @@
+.style_container{
+    width: 160px;
+    /* height: 132px; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 4px 25px 0 rgba(164, 164, 164, 0.44);
+}
+
+.kitchen_img{
+    width:160px;
+    height: 96px;
+    border-radius: 7px 7px 0 0;
+}
+
+.style_btn{
+    width: 160px;
+    height: 34px;
+    border: none;
+    border-radius: 0 0 7px 7px;
+    background-color: var(--brand-color1);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--brand-color16);
+}
+.active{
+    background-color: var(--brand-color2);
+    color: var(--brand-color1);
+}
